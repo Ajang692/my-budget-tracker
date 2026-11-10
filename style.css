@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: #f4f7fb;
+    color: #263238;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #1565c0;
+    background-color: white;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border: 1px solid #d6e2f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #d6e2f0;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+input,
+select {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-expense {
+    background-color: #e3f2fd;
+    border-left: 5px solid #1565c0;
+}
+
+/* Expense table */
+
+.your-expense table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.your-expense th,
+.your-expense td {
+    border: 1px solid #d6e2f0;
+    padding: 12px;
+    text-align: left;
+}
+
+.your-expense th {
+    background-color: #1565c0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.your-expense tr:nth-child(even) {
+    background-color: #f1f6fb;
+}
+
+.your-expense tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Form focus effect */
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #1565c0;
+}
+
+/* Buttons */
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1565c0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
